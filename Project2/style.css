@@ -182,7 +182,7 @@ here this is in my opinion is unprofessional i think , right i have to wright a 
     padding-right: 50px;
 }
 
-#work1 h3{
+#work1 h3 {
     font-size: 28px;
     font-family: sans-serif;
     color: rgb(30, 30, 33);
@@ -190,20 +190,63 @@ here this is in my opinion is unprofessional i think , right i have to wright a 
     letter-spacing: -0.5px;
 }
 
-#work1 i{
+#work1 i {
     font-size: 30px;
- 
-
 }
-
-
 
 #work2 {
     width: 65%;
     height: 100%;
-  
+    padding: 0 50px;
+}
 
+.work2-part {
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
 
+.work2-part:nth-child(1) {
 
+    padding-top: 20px;
+
+    border-bottom: 2px solid rgb(30, 30, 33);
+
+}
+
+.work2-part .elem {
+    width: 50%;
+    height: 100%;
+}
+
+.elem:nth-child(1) {
+
+    border-right: 2px solid rgb(30, 30, 33);
+    padding-left: 50px;
+
+}
+
+.elem:nth-child(2) {
+
+    padding-left: 50px;
+
+}
+
+.work2-part .elem h4 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(30, 30, 33);
+    font-weight: 600;
+    letter-spacing: -0.5px;
+
+}
+
+.elem p {
+    font-size: 19px;
+    font-family: sans-serif;
+    color: rgba(30, 30, 33, 0.7);
+    font-weight: 500;
+    margin-top: 20px;
 }
