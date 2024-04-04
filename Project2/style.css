@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+
+/* #menu h1 {
+    position: fixed;
+    top: 27px;
+    right: 129px;
+    border: 1.5px solid rgb(30, 30, 33);
+    border-radius: 100%;
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: rgb(30, 30, 33);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+here this is in my opinion is unprofessional i think , right i have to wright a lot more , i upload it so that you can understand , what is a more optimised solution of it
+
+#menu h2 {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    border: 1.5px solid rgb(30, 30, 33);
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 20px;
+    background-color: rgb(30, 30, 33);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+} */
+
+#intro {
+    height: 68%;
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 85px 80px;
+}
+
+#intro h1 {
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 30, 33);
+    font-weight: 600;
+    line-height: 115px;
+    letter-spacing: -5px;
+
+}
+
+#place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+
+#place h3,
+#place h4 {
+    font-size: 28px;
+    font-family: sans-serif;
+    color: rgb(30, 30, 33);
+    font-weight: 600;
+}
+
+#hero-image {
+    height: 95%;
+    width: 100%;
+    background-image: url('https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp');
+    background-size: cover;
+
+}
